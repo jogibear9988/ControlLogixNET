@@ -1,0 +1,9 @@
+﻿1.1
+Modified LogixTagGroup so that it sends out tag update notifications as soon as the packet is processed instead of waiting for all packets to be processed.
+Added a short version of the IOI string to more quickly update tags.
+Added methods on LogixTagGroup to add multiple tags.
+Added methods on LogixTagGroup to add tags by LogixTagInfo
+Added a LogixTagInfo property on the LogixTag
+
+1.0
+Initial Release

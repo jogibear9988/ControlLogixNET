@@ -1,0 +1,4 @@
+﻿This file contains a list of known issues. These issues will be fixed in an order of priority.
+
+1. The "SenderContext" is not being persisted through the requests. (Fixed 9-16-2011 RAB)
+2. LogixProcessor.WriteTag does not support more data than will fit in one packet. Solution may be to create a new WriteOnly group to write the tag.
